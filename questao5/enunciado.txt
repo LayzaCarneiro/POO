@@ -1,0 +1,12 @@
+5. Escreva uma classe “Funcionário” com os atributos nome (String) e salário (double). Adicione na
+classe um construtor que receba todos os parâmetros para inicializar os dados de um funcionário e
+métodos de get e set para cada atributo (0,5 ponto). 
+ 
+Escreva uma classe “SetorPessoal” que tenha como atributo uma lista de funcionários (inicialize a
+lista na própria definição ou em um construtor). Acrescente os seguintes métodos a classe: 
+ 
+a. um método para adicionar funcionários. (0.5 ponto) 
+b. um método que possa imprimir a folha de pagamento informando o nome dos funcionários,
+os seus respectivos salários, o valor total da folha. (1 ponto) 
+c. um método que possa retornar o nome do funcionário que recebe o maior salário (1
+ponto).

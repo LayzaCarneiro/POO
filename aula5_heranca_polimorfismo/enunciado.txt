@@ -1,0 +1,27 @@
+Exercício Herança e Polimorfismo
+
+Uma universidade possui um registro de seus funcionários armazenando a matrícula e nome
+de cada um. Por padrão, o salário de todo funcionário é o valor do salário mínimo (considere o
+valor de R$1000 para facilitar). Na universidade trabalham professores, secretários e
+servidores. Todo funcionário tem os métodos imprimirDados() e calcularSalario().
+
+O salário dos professores depende da titulação e da sua carga horária. Para os mestres, o valor
+da hora/aula é R$80, enquanto o doutor ganha R$100 por hora/aula. Além disso, caso o
+professor seja coordenador, ele pode tem uma gratificação de 20% do valor final de seu
+salário.
+
+Secretários trabalham 20, 30 ou 40 horas semanais. Seu salário é a calculado pelo valor da
+hora de trabalho, que é de R$8 para quem trabalha até 30h/semana e R$10 para quem
+trabalha 40h/semana, vezes a quantidade de horas mensais trabalhadas (considere um mês
+como tendo 4 semanas).
+
+Técnicos podem trabalhar horas extras, cujo valor unitário é de R$15. Seu salário final é a soma
+do salário de um funcionário mais o total ganho com horas extras.
+
+Essa universidade possui um nome e uma lista de funcionários. Crie um método para adicionar
+funcionários na lista e outro para gerar a folha de pagamento desta universidade, mostrando
+os dados e salário final de todos os funcionários, além do valor total pago pela universidade.
+
+Faça um programa que implemente essas classes e suas funcionalidades. Na classe principal,
+instancie uma universidade, crie diferentes tipos de funcionários e adicione à universidade, e
+gere a folha de pagamento.

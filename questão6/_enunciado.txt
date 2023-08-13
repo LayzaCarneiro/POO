@@ -1,0 +1,23 @@
+6. Em uma universidade, uma pessoa pode alugar livros. Um livro tem um título e um autor. Uma
+pessoa pode ser um professor ou aluno. Toda pessoa tem um nome, uma matricula, e a lista de livros
+emprestados que ela possui no momento. Todo aluno tem o nome do curso no qual está matriculado e
+todo professor tem sua titulação.  
+ 
+Além disso, uma pessoa pode pedir emprestado um livro e devolver um livro, porém as regras de
+negócio mudam se a pessoa é um aluno ou professor. Se for um aluno, ele só pode ficar com no
+máximo 3 livros emprestados ao mesmo tempo, enquanto o professor pode ficar com até 4 livros
+emprestados. Ao se devolver um livro, também há uma diferença. No caso do aluno, se a data de
+devolução for maior que 7 dias, ele paga multa de R$0,5 por dia. Se for um professor, ele paga
+multa de R$0,8 por dia se for um mestre, e R$1 por dia se for doutor. Com a devolução, o livro sai
+da lista de empréstimos. 
+ 
+Considerando que a classe Livro possui métodos de get e set para cada atributo, faça: 
+ 
+a. Implemente as classes Livro, Pessoa, Aluno e Professor. O método pedirEmprestado recebe
+como parâmetro um livro e deve retornar um boolean, enquanto o método devolver recebe
+como parâmetro o nome do livro a ser devolvido e a quantidades de dias e deve
+retornar um double informando o valor da multa. Implemente também uma sobrecarga do
+método devolver que só recebe como parâmetro a quantidade de dias e na implementação
+devolve todos os livros emprestados. (2 pontos) 
+b. Faça uma classe principal que instancie livros, um aluno e um professor e simule o
+empréstimo e devolução de livros para cada um. (1 ponto)
